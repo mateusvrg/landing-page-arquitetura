@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menusup{
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#titulo-menusup{
+    font-size: 60px;
+    padding-top: 190px;
+    padding-left: 62px;
+}
+
+#texto-menusup{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 62px;
+    padding-bottom: 149px;
+}
+
+#menu-qualidades{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 96px 66.82px 99px 171px;
+}
+
+.num-qualidades{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.texto-qualidades{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#menu-imagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-imagem{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 290px 290px 0px 190px;
+}
+
+#texto-imagem{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#foto-sala{
+    padding-top: 82px;
+    margin-left: -350px;
+    padding-bottom: 90px;
+}
+
+#formulario{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#tit-formulario{
+    font-size: 32px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+input{
+    background-color: #FFFFFF;
+    width: 430px;
+    height: 60.94px;
+    margin: 22px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.30);
+}
+
+#botao{
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+button{
+    background-color: #C07212;
+    width: 280px;
+    height: 61px;
+    border: 0px;
+    color: #FFFFFF;
+    font-size: 25.8px;
+    border-radius: 10px;
+    margin: 23px;
+    margin-top: 45px;
+    margin-bottom: 65px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e2a152;
+    transform: translateY(-8px);
+    transition-duration: 0.8s;
+    box-shadow: 0px 5px 15px #ffffff09;
+}
+
